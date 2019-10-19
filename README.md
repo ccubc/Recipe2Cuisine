@@ -585,31 +585,25 @@ clf = MultinomialNB().fit(X_train_tfidf, y_train)
 
 
 ```python
-print('prediction result for çªèçè')
 print(clf.predict(tfidf.transform(["oil, tomato, egg, salt, sugar, green onion"])))
 ```
 
-    prediction result for çªèçè
     ['italian']
 
 
 
 ```python
-print('prediction result for çªèçè')
 print(clf.predict(tfidf.transform(["oil, tomato, egg, salt, sugar, green onion, ginger, garlic"])))
 ```
 
-    prediction result for çªèçè
     ['chinese']
 
 
 
 ```python
-print('prediction result for çªèåè±çè©ç²')
 print(clf.predict(tfidf.transform(["oil, tomato, beef, soy sauce, sugar, water, potato, green onion, ginger, garlic"])))
 ```
 
-    prediction result for çªèåè±çè©ç²
     ['chinese']
 
 
