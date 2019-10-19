@@ -1,9 +1,9 @@
 # Multi-Class Text Classification with Scikit-Learn
 ### Given a list of recipe ingredients, can you tell the cuisine type? --- supervised learning with labeled text data
 #### The workflow:
-* Data pre-processing (data exploration, train-test split, represent text in numerical values using tf-idf)
-* Model selection (evaluate models by comparing the cross-validation score of the training set): logistic regression, linear support vector machine, multinomial naive bayes, random forest; of which linear SVM performs the best.
-* Model evaluation: use the test set to evaluate the best-performing model: linear SVM; visualize the result using a confusion matrix
+* Data pre-processing (data exploration, train-test split, represent text in numerical values using **tf-idf**)
+* Model selection (evaluate models by comparing the cross-validation score of the training set): **logistic regression**, **linear support vector machine**, **multinomial naive bayes**, **random forest**; of which linear SVM performs the best.
+* Model evaluation: use the test set to evaluate the best-performing model: linear SVM; visualize the result using a **confusion matrix**
 
 ```python
 import os
